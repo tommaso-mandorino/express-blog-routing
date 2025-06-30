@@ -23,7 +23,25 @@ router.get('/:id', (request, response) => {
     // Get ID parameter
     const id = request.params.id;
 
-    response.send(`Stai visualizzando il post con ID: ${id}`);
+    // response.send(`Stai visualizzando il post con ID: ${id}`);
+
+    // IF request ID is valid
+    if (id >= 1 && id <= posts.length) {
+
+        // Convert post ID to array index
+        const postIndex = id - 1;
+
+        // Send post object with specified ID from posts objects array
+        response.json(posts[postIndex]);
+
+    }
+    // ELSE (request ID is invalid)
+    else {
+
+        // Send invalid ID message
+        response.send('Invalid ID.');
+
+    }
 
 });
 
