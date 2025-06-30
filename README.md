@@ -1,7 +1,7 @@
 # Express Blog Routing
 (esercizio)
 
-## Traccia
+## Passaggi
 
 1. Creare un file di routing (routers/posts.js) che conterrà le rotte necessario per l'entità post.
 
