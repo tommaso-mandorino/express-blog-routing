@@ -1,0 +1,26 @@
+{
+  "name": "express-blog-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node app.js",
+    "watch": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommaso-mandorino/express-blog-routing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tommaso-mandorino/express-blog-routing/issues"
+  },
+  "homepage": "https://github.com/tommaso-mandorino/express-blog-routing#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
