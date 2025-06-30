@@ -1,13 +1,19 @@
 // Express importing
 const express = require('express');
 
+// Posts importing
+const posts = require('../posts.js');
+
 // Initialize a new express router
 const router = express.Router();
 
 // Index (Read)
 router.get('/', (request, response) => {
 
-    response.send('Stai visualizzando tutti i post.');
+    // response.send('Stai visualizzando tutti i post.');
+
+    // Send posts object array
+    response.json(posts);
 
 });
 

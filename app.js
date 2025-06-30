@@ -5,7 +5,7 @@ const PORT = 3001;
 const express = require('express');
 
 // Posts router importing
-const postsRouter = require('./routers/posts');
+const postsRouter = require('./routers/posts.js');
 
 // Initialize a new express server
 const app = express();
